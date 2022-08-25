@@ -32,7 +32,7 @@ function repeater(str, options) {
 
   const additionStr = makeStr(addition, additionSeparator, options.additionRepeatTimes);
   const string = str + additionStr;
-  let result = makeStr(string, separator, options.repeatTimes);
+  const result = makeStr(string, separator, options.repeatTimes);
 
   return result;
 }
